@@ -2,7 +2,7 @@
 /*
  In EEPROM logger
 
- Copyright (C) 2010 Potrepalov I.S.  potrepalov@list.ru
+ Copyright (C) 2010,2019 Potrepalov I.S.  potrepalov@list.ru
 
     This library is free software; you can redistribute it and/or
     modify it under the terms of the GNU Lesser General Public
@@ -45,7 +45,7 @@
 	return immediate (not wait for finish writing)
 
 
- Difine these macros and functions:
+ Define these macros and functions:
 
  DECLARE_LOGGER( NAME, RECS, REC_SIZE, START_ADDR )
 	declare log with name NAME, number of records RECS,
